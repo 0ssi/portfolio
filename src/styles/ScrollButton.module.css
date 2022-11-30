@@ -1,0 +1,14 @@
+.button_scroll {
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+  }
+  .button_scroll:hover {
+    border: 2px solid #07C2C9;
+    background-color: #07C2C9;
+  }
+  

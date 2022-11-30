@@ -1,0 +1,66 @@
+
+  .refresh {
+    padding: 5px;
+    position: absolute;
+    border: 1px dotted var(--accent);
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .refresh path {
+    fill: var(--accent);
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: var(--accent);
+    margin: 0;
+  }
+  
+  .menu {
+    filter: drop-shadow(1px 1px 1px #4700b3);
+    width: 300px;
+  }
+  
+ 
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+
+  
+ 
+  .example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .item {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: var(--accent);
+    color: var(--background);
+    font-size: 240px;
+    line-height: 260px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
